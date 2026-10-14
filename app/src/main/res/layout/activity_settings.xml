@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.settings.SettingsActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:navigationIcon="@drawable/ic_arrow_back"
+        app:title="@string/settings" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_map_settings"
+            style="@style/Widget.Material3.Button.TonalButton.Icon"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="@string/map_settings"
+            app:icon="@drawable/ic_place" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardBackgroundColor="?attr/colorSurface"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="0dp">
+
+            <com.google.android.material.materialswitch.MaterialSwitch
+                android:id="@+id/switch_notifications"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="64dp"
+                android:padding="16dp"
+                android:text="@string/notifications_label"
+                android:textAppearance="?attr/textAppearanceTitleMedium" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:cardBackgroundColor="?attr/colorSurface"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/language_label"
+                    android:textAppearance="?attr/textAppearanceTitleMedium" />
+
+                <Spinner
+                    android:id="@+id/spinner_language"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:minHeight="48dp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,34 @@
+<resources>
+    <!-- One dark theme for the whole app: charcoal surfaces with a yellow accent. -->
+    <style name="Theme.CarSpotter" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/primary_yellow</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorPrimaryContainer">@color/primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/primary_yellow</item>
+        <item name="colorSecondary">@color/primary_yellow</item>
+        <item name="colorOnSecondary">@color/on_primary</item>
+        <item name="colorSecondaryContainer">@color/primary_container</item>
+        <item name="colorOnSecondaryContainer">@color/primary_yellow</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="colorOnSurfaceVariant">@color/text_secondary</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="colorOutline">@color/outline</item>
+        <item name="colorError">@color/error</item>
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- Large square buttons used for the dashboard menu -->
+    <style name="Widget.CarSpotter.MenuTile" parent="Widget.Material3.Button.TonalButton">
+        <item name="iconGravity">top</item>
+        <item name="iconPadding">8dp</item>
+        <item name="android:minHeight">104dp</item>
+        <item name="cornerRadius">20dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="iconSize">32dp</item>
+    </style>
+</resources>

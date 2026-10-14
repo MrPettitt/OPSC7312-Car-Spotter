@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- These car photos are looked up by name (SampleCars.imageName), so lint can't see the references. -->
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@drawable/porsche,@drawable/mercedes_gle,@drawable/ferrari,@drawable/rolls_royce,@drawable/bentley_bentayga" />

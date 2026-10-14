@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:name=".CarSpotterApp"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/carspotterpic"
+        android:label="@string/app_name"
+        android:localeConfig="@xml/locales_config"
+        android:roundIcon="@drawable/carspotterpic"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CarSpotter"
+        tools:targetApi="33">
+
+        <!-- Launcher screen -->
+        <activity
+            android:name=".ui.welcome.WelcomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Internal screens: not reachable from other apps -->
+        <activity android:name=".ui.auth.LoginActivity" android:exported="false" />
+        <activity android:name=".ui.auth.RegistrationActivity" android:exported="false" />
+        <activity android:name=".ui.dashboard.DashboardActivity" android:exported="false" />
+        <activity android:name=".ui.map.MapActivity" android:exported="false" />
+        <activity android:name=".ui.observation.ObservationListActivity" android:exported="false" />
+        <activity android:name=".ui.observation.AddObservationActivity" android:exported="false" />
+        <activity android:name=".ui.knowledge.KnowledgeActivity" android:exported="false" />
+        <activity android:name=".ui.settings.SettingsActivity" android:exported="false" />
+        <activity android:name=".ui.settings.MapSettingsActivity" android:exported="false" />
+
+        <!-- Remembers the in-app language choice on Android 12 and below -->
+        <service
+            android:name="androidx.appcompat.app.AppLocalesMetadataHolderService"
+            android:enabled="false"
+            android:exported="false">
+            <meta-data
+                android:name="autoStoreLocales"
+                android:value="true" />
+        </service>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,28 @@
+# Gradle / build output
+.gradle/
+build/
+captures/
+*.apk
+*.aab
+
+# IDE
+*.iml
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.DS_Store
+
+# Native build
+.externalNativeBuild
+.cxx
+
+# Local machine config and secrets
+local.properties
+*.jks
+*.keystore
+
+# Leftovers from the project clean-up (safe to delete)
+_removed_in_cleanup/

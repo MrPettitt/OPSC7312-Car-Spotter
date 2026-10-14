@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CarSpotter</string>
+    <string name="welcome_to">WELCOME TO</string>
+    <string name="Carspotter">CarSpotter</string>
+    <string name="explore_discover_drive">Explore | Discover | Drive</string>
+    <string name="get_started">Get Started</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="enter_password_again">Enter Password again</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="welcome">Welcome</string>
+    <string name="car_of_the_day">Car of the Day</string>
+    <string name="locate_car">Locate Car</string>
+    <string name="Car_Knowledge">Knowledge</string>
+    <string name="observations">Observations</string>
+    <string name="settings">Settings</string>
+    <string name="km_miles1">KM/Miles</string>
+    <string name="imperial_miles">Imperial (Miles)</string>
+    <string name="metric_km">Metric (KM)</string>
+    <string name="maximum_distance_to_hotspot">Maximum distance to hotspot</string>
+    <string name="biometric_login">Use Biometric Login</string>
+    <string name="logout">Logout</string>
+    <string name="save">Save</string>
+    <string name="signed_out">Goodbye User: Signed Out</string>
+    <string name="notification_channel_name">CarSpotter notifications</string>
+    <string name="location_permission_needed">Location permission is needed to show where you are on the map.</string>
+    <string name="location_not_available">Your location isn\'t available yet.</string>
+    <string name="center_on_me">My location</string>
+
+    <string name="app_logo">CarSpotter logo</string>
+    <string name="login_title">Welcome back</string>
+    <string name="login_subtitle">Sign in to keep spotting</string>
+    <string name="register_title">Create your account</string>
+    <string name="password_helper">At least 6 characters</string>
+    <string name="sign_up_with_SIGNUP">Already have an account? Sign in</string>
+    <string name="don_t_have_an_account_signup">Don\'t have an account? Sign up</string>
+    <string name="featured_car">Featured car</string>
+    <string name="welcome_user">Welcome, %1$s</string>
+    <string name="map_title">Car Map</string>
+    <string name="map_hint">Long-press the map to log a sighting</string>
+    <string name="observations_title">Car Observations</string>
+    <string name="no_observations">No sightings yet. Add the first one!</string>
+    <string name="add_observation">Add observation</string>
+    <string name="new_observation">New sighting</string>
+    <string name="hint_car_name">Car name</string>
+    <string name="hint_model">Model</string>
+    <string name="hint_description">Description</string>
+    <string name="hint_latitude">Latitude</string>
+    <string name="hint_longitude">Longitude</string>
+    <string name="hint_image_url">Photo link (optional)</string>
+    <string name="location_tip">Tip: long-press the map to fill in the location automatically.</string>
+    <string name="save_observation">Save sighting</string>
+    <string name="car_photo">Car photo</string>
+    <string name="map_settings">Map Settings</string>
+    <string name="language_label">Language</string>
+    <string name="err_biometric_no_hardware">This device doesn\'t support biometric authentication</string>
+    <string name="err_biometric_none_enrolled">No biometric credentials are enrolled</string>
+    <string name="biometric_error">Authentication error: %1$s</string>
+    <string name="biometric_failed">Authentication failed</string>
+    <string name="biometric_title">Biometric Authentication</string>
+    <string name="biometric_subtitle">Log in using your biometric credential</string>
+    <string name="biometric_use_password">Use password instead</string>
+    <string name="sign_in_first">Sign in with your email and password first</string>
+    <string name="err_blank_credentials">Email and password can\'t be blank</string>
+    <string name="err_invalid_email">Please enter a valid email address</string>
+    <string name="sign_in_success">Signed in</string>
+    <string name="err_password_short">Password must be at least %1$d characters</string>
+    <string name="err_password_mismatch">Password and confirmation don\'t match</string>
+    <string name="sign_up_success">Account created</string>
+    <string name="err_fill_required">Please fill in the car name, model and description.</string>
+    <string name="err_invalid_coordinates">Enter a latitude between -90 and 90 and a longitude between -180 and 180.</string>
+    <string name="observation_saved">Sighting saved</string>
+    <string name="settings_saved">Settings saved</string>
+    <string name="err_save_failed">Couldn\'t save the sighting</string>
+    <string name="err_email_taken">An account with this email already exists</string>
+    <string name="err_wrong_credentials">Incorrect email or password</string>
+    <string name="local_account_notice">Accounts are stored on this device only.</string>
+    <string name="notifications_label">Daily Car of the Day notification</string>
+    <string name="notifications_blocked">Notifications are blocked. Allow them in the system settings.</string>
+    <string name="coordinates_format" translatable="false">%1$.4f, %2$.4f</string>
+
+    <!-- Language names are shown in their own language -->
+    <string-array name="language_options">
+        <item>English</item>
+        <item>isiZulu</item>
+        <item>Afrikaans</item>
+    </string-array>
+</resources>

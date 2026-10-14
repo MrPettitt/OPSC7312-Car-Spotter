@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CarSpotter</string>
+    <string name="welcome_to">WELKOM BY</string>
+    <string name="Carspotter">CarSpotter</string>
+    <string name="explore_discover_drive">Verken | Ontdek | Ry</string>
+    <string name="get_started">Begin</string>
+    <string name="email">E-pos</string>
+    <string name="password">Wagwoord</string>
+    <string name="sign_in">Teken In</string>
+    <string name="enter_password_again">Voer Wagwoord Weer In</string>
+    <string name="sign_up">Registreer</string>
+    <string name="welcome">Welkom</string>
+    <string name="car_of_the_day">Motor van die Dag</string>
+    <string name="locate_car">Vind Motor</string>
+    <string name="Car_Knowledge">Motor Kennis</string>
+    <string name="observations">Waarnemings</string>
+    <string name="settings">Instellings</string>
+    <string name="km_miles1">KM/Myl</string>
+    <string name="imperial_miles">Imperiaal (Myl)</string>
+    <string name="metric_km">Metries (KM)</string>
+    <string name="maximum_distance_to_hotspot">Maksimale Afstand tot Warm Punte</string>
+    <string name="biometric_login">Gebruik biometriese aanmelding</string>
+    <string name="logout">Teken uit</string>
+    <string name="save">Stoor</string>
+    <string name="signed_out">Totsiens: Uitgeteken</string>
+    <string name="notification_channel_name">CarSpotter-kennisgewings</string>
+    <string name="location_permission_needed">Ligging-toestemming is nodig om jou posisie op die kaart te wys.</string>
+    <string name="location_not_available">Jou ligging is nog nie beskikbaar nie.</string>
+    <string name="center_on_me">My ligging</string>
+
+    <string name="app_logo">CarSpotter-logo</string>
+    <string name="login_title">Welkom terug</string>
+    <string name="login_subtitle">Teken in om aan te hou spot</string>
+    <string name="register_title">Skep jou rekening</string>
+    <string name="password_helper">Ten minste 6 karakters</string>
+    <string name="sign_up_with_SIGNUP">Het jy reeds \'n rekening? Teken in</string>
+    <string name="don_t_have_an_account_signup">Het jy nie \'n rekening nie? Registreer</string>
+    <string name="featured_car">Voorgestelde motor</string>
+    <string name="welcome_user">Welkom, %1$s</string>
+    <string name="map_title">Motorkaart</string>
+    <string name="map_hint">Druk lank op die kaart om \'n waarneming by te voeg</string>
+    <string name="observations_title">Motorwaarnemings</string>
+    <string name="no_observations">Nog geen waarnemings nie. Voeg die eerste een by!</string>
+    <string name="add_observation">Voeg waarneming by</string>
+    <string name="new_observation">Nuwe waarneming</string>
+    <string name="hint_car_name">Motornaam</string>
+    <string name="hint_model">Model</string>
+    <string name="hint_description">Beskrywing</string>
+    <string name="hint_latitude">Breedtegraad</string>
+    <string name="hint_longitude">Lengtegraad</string>
+    <string name="hint_image_url">Foto-skakel (opsioneel)</string>
+    <string name="location_tip">Wenk: druk lank op die kaart om die ligging outomaties in te vul.</string>
+    <string name="save_observation">Stoor waarneming</string>
+    <string name="car_photo">Motorfoto</string>
+    <string name="map_settings">Kaartinstellings</string>
+    <string name="language_label">Taal</string>
+    <string name="err_biometric_no_hardware">Hierdie toestel ondersteun nie biometriese verifikasie nie</string>
+    <string name="err_biometric_none_enrolled">Geen biometriese gegewens is geregistreer nie</string>
+    <string name="biometric_error">Verifikasiefout: %1$s</string>
+    <string name="biometric_failed">Verifikasie het misluk</string>
+    <string name="biometric_title">Biometriese verifikasie</string>
+    <string name="biometric_subtitle">Teken in met jou biometriese gegewens</string>
+    <string name="biometric_use_password">Gebruik wagwoord eerder</string>
+    <string name="sign_in_first">Teken eers met jou e-pos en wagwoord in</string>
+    <string name="err_blank_credentials">E-pos en wagwoord mag nie leeg wees nie</string>
+    <string name="err_invalid_email">Voer asseblief \'n geldige e-posadres in</string>
+    <string name="sign_in_success">Suksesvol ingeteken</string>
+    <string name="err_password_short">Wagwoord moet ten minste %1$d karakters wees</string>
+    <string name="err_password_mismatch">Wagwoord en bevestiging stem nie ooreen nie</string>
+    <string name="sign_up_success">Rekening geskep</string>
+    <string name="err_fill_required">Vul asseblief die motornaam, model en beskrywing in.</string>
+    <string name="err_invalid_coordinates">Voer \'n breedtegraad tussen -90 en 90 en \'n lengtegraad tussen -180 en 180 in.</string>
+    <string name="observation_saved">Waarneming gestoor</string>
+    <string name="settings_saved">Instellings gestoor</string>
+    <string name="err_save_failed">Kon nie waarneming stoor nie</string>
+    <string name="err_email_taken">\'n Rekening met hierdie e-pos bestaan reeds</string>
+    <string name="err_wrong_credentials">Verkeerde e-pos of wagwoord</string>
+    <string name="local_account_notice">Rekeninge word slegs op hierdie toestel gestoor.</string>
+    <string name="notifications_label">Daagliks \'Motor van die Dag\'-kennisgewing</string>
+    <string name="notifications_blocked">Kennisgewings is geblokkeer. Laat dit toe in die stelselinstellings.</string>
+
+    <!-- Language names are shown in their own language -->
+    <string-array name="language_options">
+        <item>English</item>
+        <item>isiZulu</item>
+        <item>Afrikaans</item>
+    </string-array>
+</resources>

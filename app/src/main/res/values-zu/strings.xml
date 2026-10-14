@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CarSpotter</string>
+    <string name="welcome_to">WAMUKELWE KU</string>
+    <string name="Carspotter">CarSpotter</string>
+    <string name="explore_discover_drive">Phenya | Thola | Gijima</string>
+    <string name="get_started">Qala</string>
+    <string name="email">I-imeyili</string>
+    <string name="password">Iphasiwedi</string>
+    <string name="sign_in">Ngena</string>
+    <string name="enter_password_again">Faka iphasiwedi futhi</string>
+    <string name="sign_up">Bhalisela</string>
+    <string name="welcome">Wamukelekile</string>
+    <string name="car_of_the_day">Imoto yansuku zonke</string>
+    <string name="locate_car">Thola Imoto</string>
+    <string name="Car_Knowledge">Ulwazi lweMota</string>
+    <string name="observations">Okubonwe</string>
+    <string name="settings">Izilungiselelo</string>
+    <string name="km_miles1">Km/Amamayela</string>
+    <string name="imperial_miles">Imperial (Amamayela)</string>
+    <string name="metric_km">Metric (Amakhilomitha)</string>
+    <string name="maximum_distance_to_hotspot">Ibanga elikhulu ukuya kudokotela</string>
+    <string name="biometric_login">Sebenzisa Biometrika</string>
+    <string name="logout">Phuma</string>
+    <string name="save">Gcina</string>
+    <string name="signed_out">Sala kahle: Uphumile</string>
+    <string name="notification_channel_name">Izaziso ze-CarSpotter</string>
+    <string name="location_permission_needed">Imvume yendawo iyadingeka ukukhombisa lapho ukhona kumephu.</string>
+    <string name="location_not_available">Indawo yakho ayikatholakali okwamanje.</string>
+    <string name="center_on_me">Indawo yami</string>
+
+    <string name="app_logo">Uphawu lwe-CarSpotter</string>
+    <string name="login_title">Siyakwamukela futhi</string>
+    <string name="login_subtitle">Ngena ukuze uqhubeke nokubona</string>
+    <string name="register_title">Dala i-akhawunti yakho</string>
+    <string name="password_helper">Okungenani izinhlamvu eziyisi-6</string>
+    <string name="sign_up_with_SIGNUP">Usunayo i-akhawunti? Ngena</string>
+    <string name="don_t_have_an_account_signup">Awunayo i-akhawunti? Bhalisa</string>
+    <string name="featured_car">Imoto ekhethiwe</string>
+    <string name="welcome_user">Siyakwamukela, %1$s</string>
+    <string name="map_title">Imephu Yezimoto</string>
+    <string name="map_hint">Cindezela isikhathi eside kumephu ukuze ungeze okubonile</string>
+    <string name="observations_title">Okubonwe Kwezimoto</string>
+    <string name="no_observations">Akukabonwa lutho. Engeza okokuqala!</string>
+    <string name="add_observation">Engeza okubonile</string>
+    <string name="new_observation">Okusha okubonile</string>
+    <string name="hint_car_name">Igama lemoto</string>
+    <string name="hint_model">Imodeli</string>
+    <string name="hint_description">Incazelo</string>
+    <string name="hint_latitude">Ilatitudi</string>
+    <string name="hint_longitude">Ilongitudi</string>
+    <string name="hint_image_url">Isixhumanisi sesithombe (akuphoqelekile)</string>
+    <string name="location_tip">Iseluleko: cindezela isikhathi eside kumephu ukuze indawo igcwaliswe ngokuzenzakalelayo.</string>
+    <string name="save_observation">Gcina okubonile</string>
+    <string name="car_photo">Isithombe semoto</string>
+    <string name="map_settings">Izilungiselelo Zemephu</string>
+    <string name="language_label">Ulimi</string>
+    <string name="err_biometric_no_hardware">Le divayisi ayisekeli ukuqinisekisa ngomzimba</string>
+    <string name="err_biometric_none_enrolled">Awukho umazisi womzimba obhalisiwe</string>
+    <string name="biometric_error">Iphutha lokuqinisekisa: %1$s</string>
+    <string name="biometric_failed">Ukuqinisekisa kuhlulekile</string>
+    <string name="biometric_title">Ukuqinisekisa ngomzimba</string>
+    <string name="biometric_subtitle">Ngena usebenzisa umazisi wakho womzimba</string>
+    <string name="biometric_use_password">Sebenzisa iphasiwedi kunalokho</string>
+    <string name="sign_in_first">Qala ngokungena nge-imeyili nephasiwedi</string>
+    <string name="err_blank_credentials">Faka i-imeyili nephasiwedi</string>
+    <string name="err_invalid_email">Sicela ufake ikheli le-imeyili elivumelekile</string>
+    <string name="sign_in_success">Ungene ngempumelelo</string>
+    <string name="err_password_short">Iphasiwedi kumele ibe okungenani izinhlamvu ezingu-%1$d</string>
+    <string name="err_password_mismatch">Iphasiwedi nokuqinisekisa akufani</string>
+    <string name="sign_up_success">I-akhawunti idaliwe</string>
+    <string name="err_fill_required">Sicela ugcwalise igama lemoto, imodeli kanye nencazelo.</string>
+    <string name="err_invalid_coordinates">Faka ilatitudi phakathi kuka--90 no-90 nelongitudi phakathi kuka--180 no-180.</string>
+    <string name="observation_saved">Okubonile kugcinwe</string>
+    <string name="settings_saved">Izilungiselelo zigcinwe</string>
+    <string name="err_save_failed">Ukugcina okubonile kuhlulekile</string>
+    <string name="err_email_taken">I-akhawunti enale imeyili isivele ikhona</string>
+    <string name="err_wrong_credentials">I-imeyili noma iphasiwedi akulungile</string>
+    <string name="local_account_notice">Ama-akhawunti agcinwa kule divayisi kuphela.</string>
+    <string name="notifications_label">Isaziso sansuku zonke se-Imoto yansuku zonke</string>
+    <string name="notifications_blocked">Izaziso zivinjiwe. Zivumele kuzilungiselelo zesistimu.</string>
+
+    <!-- Language names are shown in their own language -->
+    <string-array name="language_options">
+        <item>English</item>
+        <item>isiZulu</item>
+        <item>Afrikaans</item>
+    </string-array>
+</resources>

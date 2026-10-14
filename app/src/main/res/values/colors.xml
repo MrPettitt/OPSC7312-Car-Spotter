@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand palette: charcoal background, yellow accent -->
+    <color name="background">#232323</color>
+    <color name="surface">#2F2F2F</color>
+    <color name="surface_variant">#3A3A3A</color>
+    <color name="primary_yellow">#FFCD46</color>
+    <color name="on_primary">#1A1A1A</color>
+    <color name="primary_container">#4A3F1A</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#BDBDBD</color>
+    <color name="outline">#757575</color>
+    <color name="error">#FF8A80</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
